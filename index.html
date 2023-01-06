@@ -1,28 +1,147 @@
 <html>
     <head>
         <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="sigortacılık, sigorta">
         <meta name="keywords" content="araba sigorta, hayat sigorta">
-        <title> berksigorta.net - Sigortacılık hizmeti </title>
-        <link rel="icon" href="icon.png" type="image/x-icon"/>
+        <title> berksigorta.net - Anasayfa</title>
+        <link rel="icon" href="favicon.png" type="image/x-icon"/>
         <link rel="stylesheet" href="style.css"/>     
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+		<script src="https://kit.fontawesome.com/687df877d3.js" crossorigin="anonymous"></script>
     </head>
 <body>
-<div id="wrapper">
-	<div id="header-wrapper">
-		<div id="header">
-			<div id="logo">
-				<h1><a href="#">Berk Sigorta</a></h1>
-				<a href="#">
-					<img src="321312.png" 
-					 width="64" 
-				     height="64"
-					 alt="7/24 destek" title="Hasar anında 7/24 hizmete 3 saniyede
-					 ulaşabilirsin."/>
-				   </a></div>
+	<div class="topnav" id="myTopnav">
+		<a href="index.html">Anasayfa</a>
+		<div class="dropdown">
+			<button class="dropbtn">Ürünlerimiz 
+			  <i class="fa fa-caret-down"></i>
+			</button>
+			<div class="dropdown-content">
+			  <a href="pages/arac-sigortasi.html">Araç Sigortası <i class="fa-solid fa-car"></i></a>
+			  <a href="pages/saglik-sigortasi.html">Sağlık Sigortası <i class="fa-solid fa-heart-pulse"></i></a>
+			  <a href="pages/konut-sigortasi.html">Konut Sigortası <i class="fa-sharp fa-solid fa-house"></i></a>
+			  <a href="pages/dask.html">DASK <i class="fa-solid fa-building"></i></a>
+			  <a href="pages/seyahat-sigortasi.html">Seyahat Sigortası <i class="fa-solid fa-road"></i></a>
+			</div>
+		  </div> 
+		<a href="pages/kampanyalar.html">Kampanyalar</a>
+		<a href="pages/duyurular.html">Duyurular</a>
+		<a href="pages/hakkimizda.html">Hakkımızda</a>
+		<a href="pages/iletisim.html">İletişim</a>
+		<a href="pages/destek.html">Destek</a>
+		<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+	  </div>
+	  <script>
+	  function myFunction() {
+		var x = document.getElementById("myTopnav");
+		if (x.className === "topnav") {
+		  x.className += " responsive";
+		} else {
+		  x.className = "topnav";
+		}
+	  }
+	  </script>
+	  <div class="alert">
+		<span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+		2023 yılına özel kampanyalar başladı.
+	  </div>
+	<!-- #menu sonu-->
+	<img
+	alt="foto"
+	title="foto"
+	class="foto"
+	src="images/index.png">
+		   	<!-- #img sonu-->
+	<div class="post">
+		<div class="page">
+					<h2 class="title"><a href="#">Neden bizi tercih etmelisiniz?</a></h2>
+					<p class="meta">En son 1 Ocak 2023 tarihinde güncellendi.</p>
+					<div class="entry">
+						<p>BerkSigorta.net Türkiye’nin ilk ve lider online sigorta brokeridir. Broker olarak farkımız, öncelikli olarak müşterilerimizi temsil etmemiz ve onların menfaatleri doğrultusunda hareket etmemizdir. Bu misyonla her zaman müşterilerimizin tarafındayız ve 20+ sigorta şirketi teklifini tek bir sayfada görmelerini, hem teminatları hem de fiyatları objektif olarak karşılaştırmalarını sağlıyoruz. Böylece müşterilerimiz ihtiyaçlarına en uygun sigortayı kolayca belirliyor ve online olarak satın alabiliyor. Ayrıca satış sonrası herhangi bir ihtiyacınızda 22 yıllık tecrübeli ekibimiz 7/24 desteğe hazır.</p>
+					</div>
+				</div>
+			</div>
+			<div class="post">
+				<div class="page">
+					<h2 class="title"><a href="#">En iyi teklifi nasıl seçeceğim?</a></h2>
+					<p class="meta">En son 1 Ocak 2023 tarihinde güncellendi.</p>
+					<div class="entry">
+						<p>Anlaşmalı olduğumuz 5+ sigorta şirketinin müşterilerimize özel hazırladığı teklifleri fiyat ve teminatlar açısından puanlayıp öneriler hazırlıyoruz. Bu sayede müşterilerimiz teklifler arasından; en ucuz fiyata sahip ürün, fiyat/performans skoru en iyi olan ürün ve en kapsamlı teminat içeriğine sahip ürünü kolayca görebilir. Uzun süren incelemelere gerek kalmadan ihtiyacına en uygun poliçeyi hızlıca bulur ve güvencesini başlatır.</p>
+					</div>
+				</div>
+			</div>
+			<div class="post">
+				<div class="page">
+					<h2 class="title"><a href="#">Trafik Sigortası </a></h2>
+					<p class="meta">En son 1 Ocak 2023 tarihinde güncellendi.</p>
+					<div class="entry">
+					<p	>Trafik sigortası, aracınla kaza yapman durumunda karşı tarafa ve üçüncü kişilere verdiğin hasar masraflarını karşılayan zorunlu bir araç sigortasıdır. Yani karşı tarafta meydana gelebilecek maddi ve bedensel zararları teminat limitleri kapsamında ödeyerek bütçeni korur.</p>
+				<div style="clear: both;">&nbsp;</div>
+			</div>
 		</div>
+		<!-- #content sonu-->
+	
+		<!-- #sidebar sonu-->
+		<div style="clear: both;">&nbsp;</div>
 	</div>
+</div>
+<script type="text/javascript" src="https://popupsmart.com/freechat.js"></script><script> window.start.init({ title: "Merhaba!", message: "Size yardımcı olmamızı ister misiniz? WhatsApp destek hattımıza yazabilirsiniz.", color: "#0fafff", position: "right", placeholder: "Mesajınızı girin.", withText: "", button: "Destek", device: "everywhere", logo: "https://d2r80wdbkwti6l.cloudfront.net/CG86VP8N6eWv6SxtNz5l6gcMFfdup5N5.jpg",  services: [{"name":"whatsapp","content":"05554443322"}]})</script>
+	<!-- #page sonu-->
+	<footer class="footer">
+		<div class="container">
+		 <div class="row">
+		   <div class="footer-col">
+			 <h4>Ürünlerimiz</h4>
+			 <ul>
+			   <li><a href="./pages/arac-sigortasi.html">Araç Sigortası</a></li>
+			   <li><a href="./pages/saglik-sigortasi.html">Sağlık Sigortası</a></li>
+			   <li><a href="./pages/konut-sigortasi.html">Konut Sigortası</a></li>
+			   <li><a href="./pages/dask.html">DASK</a></li>
+			   <li><a href="./pages/seyahat-sigortasi.html">Seyahat Sigortası</a></li>
+			 </ul>
+		   </div>
+		   <div class="footer-col">
+			 <h4>Şirketler</h4>
+			 <ul>
+			   <li><a href="./pages/sigorta-turkiye.html">Türkiye Sigorta</a></li>
+			   <li><a href="./pages/sigorta-hdi.html">HDI Sigorta</a></li>
+			   <li><a href="./pages/sigorta-doga.html">Doğa Sigorta</a></li>
+			   <li><a href="./pages/sigorta-ray.html">Ray Sigorta</a></li>
+			   <li><a href="./pages/sigorta-fiba.html">Fiba Emeklilik</a></li>
+			   <li><a href="./pages/tum-sirketler.html">Tüm Anlaşmalı Şirketler</a></li>
+			 </ul>
+		   </div>
+		   <div class="footer-col">
+			 <h4>Yardım Merkezi</h4>
+			 <ul>
+			   <li><a href="./pages/sikca-sorulan-sorular.html">Sıkça Sorulan Sorular</a></li>
+			   <li><a href="./pages/oneri.html">Talep, Bilgi, Şikayet, Öneri</a></li>
+			   <li><a href="./pages/kvk.html">Kişisel Verilerin Korunması</a></li>
+			   <li><a href="./pages/gizlilik-politikasi.html">Gizlilik Politikası</a></li>
+			   <li><a href="./pages/cerez-politikasi.html">Çerez Politikası</a></li>
+			   <li><a href="./pages/iletisim.html">İletişim</a></li>
+			   <li><a href="./pages/kadro.html">Kadromuz</a></li>
+			   <li><a href="./pages/arabuluculuk.html">Arabuluculuk</a></li>
+			 </ul>
+		   </div>
+		   <div class="footer-col">
+			<h4>Sosyal Medya</h4>
+			<div class="social-links">
+			  <a href="https://www.facebook.com/berkortas/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+			  <a href="https://twitter.com/berkortas" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+			  <a href="https://www.youtube.com/@berkortas" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+			  <a href="https://www.instagram.com/berkortas/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+			  <div id="footer">
+				<img class="logo" src="./images/iconlogo.png" width="32" height="32" alt="" title=""/>
+				 <div id="footer"><p>Berk Sigorta</p></div>
+						   <div class='cr-con'>&copy; 2022-2023 Tüm hakları saklıdır.</div>
+							   </div>
+						</div>
+					  </div>
+				</div>
+		   </div>
+	   </div>
+	 </footer>
+<!-- #footer sonu -->
 </body>
 </html>	
